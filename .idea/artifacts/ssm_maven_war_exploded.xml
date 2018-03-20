@@ -23,13 +23,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.2" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.2.3" />
@@ -44,6 +41,8 @@
           <element id="library" level="project" name="Maven: org.json:json:20160810" />
           <element id="library" level="project" name="Maven: cn.songxinqiang:com.baidu.ueditor:1.1.2-edit-1.0" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.24" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.10.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

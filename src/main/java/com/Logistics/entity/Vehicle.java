@@ -3,7 +3,7 @@ package com.Logistics.entity;
 import java.io.Serializable;
 
 public class Vehicle implements Serializable {
-    private String id;
+    private Integer id;
     private String location;
     private  String des;
     private String disable;
@@ -12,7 +12,7 @@ public class Vehicle implements Serializable {
 
     }
 
-    public Vehicle(String id, String location, String des, String disable){
+    public Vehicle(Integer id, String location, String des, String disable){
         this.id=id;
         this.location=location;
         this.des=des;
@@ -35,11 +35,11 @@ public class Vehicle implements Serializable {
         this.des = des;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -53,7 +53,7 @@ public class Vehicle implements Serializable {
 
     @Override
     public String toString() {
-        return "Article{" +
+        return "Vehicle{" +
                 "id='" + id + '\'' +
                 ", location='" + location + '\'' +
                 ", des='" + des + '\'' +

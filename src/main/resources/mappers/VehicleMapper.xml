@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.Logistics.dao.VehicleDao">
+    <resultMap type="Vehicle" id="VehicleResult">
+        <result property="id" column="v_id"/>
+        <result property="location" column="v_location"/>
+        <result property="des" column="v_des"/>
+        <result property="disable" column="v_disable"/>
+    </resultMap>
+
+    <select id="findVehicles" parameterType="Map" resultMap="VehicleResult">
+        select v_id,v_location,v_des,v_disable from vehicle
+        <where>
+            <if test="location!=null and location!='' ">
+                and v_location like #{location}
+            </if>
+        </where>
+        <if test="start!=null and size!=null">
+            limit #{start},#{size}
+        </if>
+    </select>
+
+    <select id="getTotalVehicles" parameterType="Map" resultType="Long">
+        select count(*) from vehicle
+        <where>
+            <if test="location!=null and location!='' ">
+                and v_location like #{location}
+            </if>
+        </where>
+    </select>
+
+    <insert id="insertVehicle" parameterType="Vehicle">
+		insert into
+		vehicle(v_location,v_des,v_disable)
+		values(#{location},#{des},#{disable})
+	</insert>
+
+    <update id="updateVehicle" parameterType="Vehicle">
+		update vehicle
+		set
+		v_location=#{location},v_des=#{des},
+		v_disable=#{disable}
+		where v_id=#{id}
+	</update>
+
+
+    <delete id="delVehicle" parameterType="Integer">
+		delete from
+		vehicle
+		where v_id=#{id}
+	</delete>
+
+    <select id="getVehicleById" parameterType="Integer" resultMap="VehicleResult">
+		select v_id,v_location,v_des,v_disable
+		from vehicle where v_id=#{id}
+	</select>
+</mapper> 

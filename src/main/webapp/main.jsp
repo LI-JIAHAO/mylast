@@ -75,6 +75,15 @@
 <div region="west" style="width: 200px;height:500px;" title="导航菜单"
      split="true">
     <div class="easyui-accordion">
+        <div title="物流管理"
+             data-options="selected:true,iconCls:'icon-wenzhangs'"
+             style="padding: 10px;height:10px;">
+            <a
+                    href="javascript:openTab(' 物流管理','articleManage.jsp','icon-wenzhang')"
+                    class="easyui-linkbutton"
+                    data-options="plain:true,iconCls:'icon-wenzhang'"
+                    style="width: 150px;"> 物流管理</a>
+        </div>
         <div title="用户管理"
              data-options="selected:true,iconCls:'icon-wenzhangs'"
              style="padding: 10px;height:10px;">
@@ -83,6 +92,15 @@
                     class="easyui-linkbutton"
                     data-options="plain:true,iconCls:'icon-wenzhang'"
                     style="width: 150px;"> 用户管理</a>
+        </div>
+        <div title="车辆管理"
+             data-options="selected:true,iconCls:'icon-wenzhangs'"
+             style="padding: 10px;height:10px;">
+            <a
+                    href="javascript:openTab(' 车辆管理','vehicleManage.jsp','icon-wenzhang')"
+                    class="easyui-linkbutton"
+                    data-options="plain:true,iconCls:'icon-wenzhang'"
+                    style="width: 150px;"> 车辆管理</a>
         </div>
         <div title="文章管理"
              data-options="selected:true,iconCls:'icon-wenzhangs'"
