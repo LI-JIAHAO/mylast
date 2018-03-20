@@ -1,8 +1,8 @@
 package dao.test;
 
-import com.ssm.maven.core.dao.UserDao;
-import com.ssm.maven.core.entity.User;
-import com.ssm.maven.core.util.MD5Util;
+import com.Logistics.dao.UserDao;
+import com.Logistics.entity.User;
+import com.Logistics.util.MD5Util;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

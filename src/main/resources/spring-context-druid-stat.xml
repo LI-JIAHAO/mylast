@@ -14,8 +14,8 @@
           scope="prototype">
         <property name="patterns">
             <list>
-                <value>com.ssm.maven.core.service.*</value>
-                <value>com.ssm.maven.core.dao.*</value>
+                <value>com.Logistics.service.*</value>
+                <value>com.Logistics.dao.*</value>
             </list>
         </property>
     </bean>

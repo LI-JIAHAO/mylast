@@ -1,8 +1,8 @@
 package dao.test;
 
-import com.ssm.maven.core.dao.PictureDao;
-import com.ssm.maven.core.entity.Picture;
-import com.ssm.maven.core.service.PictureService;
+import com.Logistics.dao.PictureDao;
+import com.Logistics.entity.Picture;
+import com.Logistics.service.PictureService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

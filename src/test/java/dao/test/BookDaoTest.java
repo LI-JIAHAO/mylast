@@ -1,7 +1,7 @@
 package dao.test;
 
-import com.ssm.maven.core.dao.BookDao;
-import com.ssm.maven.core.entity.Book;
+import com.Logistics.dao.BookDao;
+import com.Logistics.entity.Book;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

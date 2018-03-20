@@ -1,6 +1,6 @@
 package test;
 
-import com.ssm.maven.core.util.MD5Util;
+import com.Logistics.util.MD5Util;
 import org.junit.Test;
 
 /**

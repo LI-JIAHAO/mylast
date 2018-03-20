@@ -66,24 +66,8 @@
 <div region="center">
     <div class="easyui-tabs" fit="true" border="false" id="tabs">
         <div title="首页" data-options="iconCls:'icon-home'">
-                        <div align="center" style="padding-top: 20px;"><a
-                    href="https://git.oschina.net/zhenfeng13/ssm-demo"
-                    target="_blank" style="font-size: 20px;">开源中国仓库地址</a>
-            </div>
-            <div align="center" style="padding-top: 20px;"><a href="https://github.com/ZHENFENG13/ssm-demo"
-                                                              target="_blank"
-                                                              style="font-size: 20px;">Gitub仓库地址</a></div>
-
-            <div align="center" style="padding-top: 50px;"><a
-                    href="http://download.csdn.net/detail/zhenfengshisan/9813721"
-                    target="_blank" style="font-size: 20px;">项目源码下载(最新代码)</a>
-            </div>
-            <div align="center" style="padding-top: 20px;"><a
-                    href="http://download.csdn.net/detail/zhenfengshisan/9765855"
-                    target="_blank" style="font-size: 20px;">项目源码下载(非maven)</a>
-            </div>
             <div align="center" style="padding-top: 50px">
-                <font color="grey" size="10">ssm demo</font>
+                <font color="grey" size="10">欢迎使用飞兔物流管理系统</font>
             </div>
         </div>
     </div>
@@ -91,6 +75,15 @@
 <div region="west" style="width: 200px;height:500px;" title="导航菜单"
      split="true">
     <div class="easyui-accordion">
+        <div title="用户管理"
+             data-options="selected:true,iconCls:'icon-wenzhangs'"
+             style="padding: 10px;height:10px;">
+            <a
+                    href="javascript:openTab(' 用户管理','customerManage.jsp','icon-wenzhang')"
+                    class="easyui-linkbutton"
+                    data-options="plain:true,iconCls:'icon-wenzhang'"
+                    style="width: 150px;"> 用户管理</a>
+        </div>
         <div title="文章管理"
              data-options="selected:true,iconCls:'icon-wenzhangs'"
              style="padding: 10px;height:10px;">
